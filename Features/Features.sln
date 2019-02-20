@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypes", "Anonymous
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deconstructors", "Deconstructors\Deconstructors.csproj", "{6310612D-5F4D-4984-89DB-0AD1AB7EF2E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{152AF3C4-FE4E-43E9-AF5A-8111B067E930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "Threads\Threads.csproj", "{152AF3C4-FE4E-43E9-AF5A-8111B067E930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceAndContravarianceDelegates", "CovarianceAndContravarianceDelegates\CovarianceAndContravarianceDelegates.csproj", "{6A99285B-04BD-4C87-814A-4F3B50F505B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceAndContravarianceDelegates", "CovarianceAndContravarianceDelegates\CovarianceAndContravarianceDelegates.csproj", "{6A99285B-04BD-4C87-814A-4F3B50F505B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringResearch", "StringResearch\StringResearch.csproj", "{05958F26-3D0E-4A2D-B389-006F4A0AD920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6A99285B-04BD-4C87-814A-4F3B50F505B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A99285B-04BD-4C87-814A-4F3B50F505B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A99285B-04BD-4C87-814A-4F3B50F505B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05958F26-3D0E-4A2D-B389-006F4A0AD920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05958F26-3D0E-4A2D-B389-006F4A0AD920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05958F26-3D0E-4A2D-B389-006F4A0AD920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05958F26-3D0E-4A2D-B389-006F4A0AD920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
