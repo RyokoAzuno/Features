@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeration", "Enumeration\Enumeration.csproj", "{953ECEDA-73F6-49B5-8A20-40E5A31613E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{AEC644F3-03C2-42BB-8C65-9E44799285C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExamples", "RecursionExamples\RecursionExamples.csproj", "{B3C976EA-2949-4D6F-9B5B-7153D6F8F9CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,9 +67,16 @@ Global
 		{953ECEDA-73F6-49B5-8A20-40E5A31613E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953ECEDA-73F6-49B5-8A20-40E5A31613E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953ECEDA-73F6-49B5-8A20-40E5A31613E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C976EA-2949-4D6F-9B5B-7153D6F8F9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C976EA-2949-4D6F-9B5B-7153D6F8F9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C976EA-2949-4D6F-9B5B-7153D6F8F9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C976EA-2949-4D6F-9B5B-7153D6F8F9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3C976EA-2949-4D6F-9B5B-7153D6F8F9CC} = {AEC644F3-03C2-42BB-8C65-9E44799285C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8932BEF7-1FA0-4BE5-9566-BB4AD605FA9E}
